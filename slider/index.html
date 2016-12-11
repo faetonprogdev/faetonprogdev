@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <title>Responsive Horizontal Posts Slider - Template Monster Demo</title>
+  <meta name="author" content="Jake Rocheleau">
+  <link rel="shortcut icon" href="http://static.tmimgcdn.com/img/favicon.ico">
+  <link rel="icon" href="http://static.tmimgcdn.com/img/favicon.ico">
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/responsiveCarousel.min.js"></script>
+</head>
+
+<body>
+ 
+ <!-- SLIDER -->
+  <div id="w">
+
+    <div class="crsl-items" data-navigation="navbtns">
+      <div class="crsl-wrap">
+        <div class="crsl-item">
+          <div class="thumbnail">
+            <img src="img/01.jpg" alt="nyc subway">
+          </div>
+          <div class="slider_sidebar">
+              <a href="#"><img src="img/heart_icon.png" alt="like it"></a><a href="#"><img src="img/broken-heart_icon.png" alt="don't like it"></a>
+              <h3><a href="#">Lorem Ipsum Dolor Sit</a></h3>
+              <span class="author">By Jane Doe</span>
+              <p>
+                Suspendisse laoreet eu tortor vel dapibus. Etiam auctor nisl mattis, ornare nibh eu, lobortis leo. Sed congue mi eget velit dictum, id dictum massa tempus. Cras lobortis lectus neque. Fusce aliquet mauris ac bibendum pharetra.
+              </p>
+          </div>
+        </div><!-- post #1 -->
+        
+        <div class="crsl-item">
+          <div class="thumbnail">
+                        <img src="img/01.jpg" alt="nyc subway">
+          </div>
+          <div class="slider_sidebar">
+              <a href="#"><img src="img/heart_icon.png" alt="like it"></a><a href="#"><img src="img/broken-heart_icon.png" alt="don't like it"></a>
+              <h3><a href="#">Lorem Ipsum Dolor Sit</a></h3>
+              <span class="author">By Jane Doe</span>
+              <p>
+                Suspendisse laoreet eu tortor vel dapibus. Etiam auctor nisl mattis, ornare nibh eu, lobortis leo. Sed congue mi eget velit dictum, id dictum massa tempus. Cras lobortis lectus neque. Fusce aliquet mauris ac bibendum pharetra.
+              </p>
+          </div>
+        </div><!-- post #2 -->
+        
+        <div class="crsl-item">
+          <div class="thumbnail">
+                        <img src="img/01.jpg" alt="nyc subway">
+          </div>
+          <div class="slider_sidebar">
+              <a href="#"><img src="img/heart_icon.png" alt="like it"></a><a href="#"><img src="img/broken-heart_icon.png" alt="don't like it"></a>
+              <h3><a href="#">Lorem Ipsum Dolor Sit</a></h3>
+              <span class="author">By Jane Doe</span>
+              <p>
+                Suspendisse laoreet eu tortor vel dapibus. Etiam auctor nisl mattis, ornare nibh eu, lobortis leo. Sed congue mi eget velit dictum, id dictum massa tempus. Cras lobortis lectus neque. Fusce aliquet mauris ac bibendum pharetra.
+              </p>
+          </div>
+        </div><!-- post #3 -->
+        
+        <div class="crsl-item">
+          <div class="thumbnail">
+                        <img src="img/01.jpg" alt="nyc subway">
+          </div>
+          <div class="slider_sidebar">
+              <a href="#"><img src="img/heart_icon.png" alt="like it"></a><a href="#"><img src="img/broken-heart_icon.png" alt="don't like it"></a>
+              <h3><a href="#">Lorem Ipsum Dolor Sit</a></h3>
+              <span class="author">By Jane Doe</span>
+              <p>
+                Suspendisse laoreet eu tortor vel dapibus. Etiam auctor nisl mattis, ornare nibh eu, lobortis leo. Sed congue mi eget velit dictum, id dictum massa tempus. Cras lobortis lectus neque. Fusce aliquet mauris ac bibendum pharetra.
+              </p>
+          </div>
+        </div><!-- post #4 -->
+        
+        <div class="crsl-item">
+          <div class="thumbnail">
+                        <img src="img/01.jpg" alt="nyc subway">
+          </div>
+          <div class="slider_sidebar">
+              <a href="#"><img src="img/heart_icon.png" alt="like it"></a><a href="#"><img src="img/broken-heart_icon.png" alt="don't like it"></a>
+              <h3><a href="#">Lorem Ipsum Dolor Sit</a></h3>
+              <span class="author">By Jane Doe</span>
+              <p>
+                Suspendisse laoreet eu tortor vel dapibus. Etiam auctor nisl mattis, ornare nibh eu, lobortis leo. Sed congue mi eget velit dictum, id dictum massa tempus. Cras lobortis lectus neque. Fusce aliquet mauris ac bibendum pharetra.
+              </p>
+          </div>
+        </div><!-- post #5 -->
+      </div><!-- @end .crsl-wrap -->
+    </div><!-- @end .crsl-items -->
+              
+               <!-- NAVIGATION -->
+                <nav class="slidernav">
+                  <div id="navbtns">
+                    <a href="#" class="previous"></a>
+                    <a href="#" class="next"></a>
+                  </div>
+                </nav>
+                <!-- END NAVIGATION -->
+                
+  </div><!-- @end #w -->
+  
+<script type="text/javascript">
+$(function(){
+  $('.crsl-items').carousel({
+    visible: 1,
+    itemMinWidth: 180,
+    itemEqualHeight: 370,
+    itemMargin: 9,
+  });
+  
+  $("a[href=#]").on('click', function(e) {
+    e.preventDefault();
+  });
+});
+</script>
+
+<!-- END SLIDER -->
+</body>
+</html>
